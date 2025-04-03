@@ -1,0 +1,25 @@
+
+---
+
+### `.gitignore`
+
+```plaintext
+# Исключаем файлы конфигурации
+.env
+
+# Исключаем исполняемые файлы и драйверы
+geckodriver
+chromedriver
+
+# Исключаем временные файлы
+*.log
+*.tmp
+
+# Исключаем выходные данные
+profile_metrics.json
+instagram_posts.csv
+instagram_page.html
+
+# Исключаем директории Python
+__pycache__/
+venv/
